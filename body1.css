@@ -1,3 +1,17 @@
+.img-a{
+  float: left;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+}
+
+.img-b{
+  float: left;
+  position: absolute;
+  top: 200px;
+  right: 100px;
+}
+
 
 .fullscreen-bg {
   position: fixed;
