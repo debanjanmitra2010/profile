@@ -37,10 +37,10 @@ hr {
   border-color: #b21f66;
   border-style: none;
   border-top-style: dotted;
-  border-width: 7px;
-  margin-top: 0;
+  border-width: 9px;
+  margin-top: 20px;
   margin-bottom: 0;
-  width: 20%;
+  width: 10%;
 }
 
 p {
@@ -98,19 +98,35 @@ p {
   left: 350px;
 }
 
+.middle-container {
+  text-align: center;
+  background-color: #deddfa;
+  height: 680px;
+}
+
 .photo {
   border-radius: 100%;
 }
 
+.intro{
+  width: 544px;
+  font-family: 'Quicksand';
+  text-align: justify;
+  margin-left: 400px;
+}
+
 .Education {
   background-color: #fce2db;
-  height: 610px;
+  height: 460px;
   text-align: center;
   font-family: 'Quicksand';
 }
 
 .img-1{
   border-radius: 10%;
+  position: absolute;
+  top: 1520px;
+  right: 80px;
 }
 
 .a {
@@ -123,7 +139,7 @@ p {
 
 .ACADEMICPROJECTS {
   background-color: #e4f2f0;
-  height: 1100px;
+  height: 1350px;
   text-align: center;
 }
 
@@ -131,14 +147,14 @@ p {
   font-size: 18px;
   font-family: 'Quicksand';
   text-align: justify;
-  margin-left: 70px;
-  margin-right: 70px;
+  margin-left: 250px;
+  margin-right: 250px;
 }
 
 .WORKEXPERIENCE {
   background-color: #d4d7dd;
-  height: 1350px;
-text-align: center;
+  height: 1380px;
+  text-align: center;
 }
 
 .p-b{
@@ -155,21 +171,51 @@ text-align: center;
   margin-top: 0;
   font-size: 20px;
   font-family: 'Raleway';
-  height: 950px;
+  height: 740px;
 }
 
 .skillphoto {
   border-radius: 10%;
-}
-
-.middle-container {
-  text-align: center;
-  background-color: #deddfa;
-  height: 600px;
+  float: left;
+  margin-top: 60px;
+  margin-left: 100px;
 }
 
 .bottom-container {
   text-align: center;
   background-color: #be9fe1;
-  height: 415px;
+  height: 330px;
+}
+
+.btn {
+	box-shadow:inset 0px 0px 0px 0px #3dc21b;
+	background:linear-gradient(to bottom, #e5f500 5%, #0ecc9d 100%);
+	background-color:#e5f500;
+	border-radius:42px;
+	border:2px solid #8e8cbd;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:21px;
+	padding:12px 23px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #00c0fa;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #0ecc9d 5%, #e5f500 100%);
+	background-color:#0ecc9d;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.button-b{
+  height:30px;
+  background-color: #a9fffd;
+}
+
+.p-1{
+  margin: 0 0 0 0;
 }
